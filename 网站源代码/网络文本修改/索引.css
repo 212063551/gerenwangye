@@ -1,10 +1,10 @@
 /*-----系统修饰----------*/
-
+/*注：以下所有代码1rem=16px*/
 * {
   /*取消系统文本外边距*/
   margin: 0rem;
   /*取消系统文本内边距*/
-  padding: 0rem;
+  padding: 0rem; 
 }
 html body {
   /*边缘距离*/
@@ -13,8 +13,7 @@ html body {
   height: 100%;
   /*控制元素内边距区域*/
   padding: 0rem;
-  /*背景颜色*/
-  background: #f7f7f7;
+  background: #ffffff;
 }
 
 /*--------网页顶部文本修饰部分--------*/
@@ -91,73 +90,108 @@ html body {
   width: auto;
   /*设置高度为300px*/
   height: 18.75rem;
+  background: #f7f7f7;
+  }
+  .nav-img{
+    width: 39.5%;
+    position: absolute;
+    left: 0%;
+    float: left;
+  }
+.nav-img-a{
+  width: 5%;
+  position: absolute;
+  right: 35%;
 }
-.left {
-  /*设置宽度为全部宽度的20%*/
-  width: 20%;
-  /*设置高度为300px*/
-  height: 18.75rem;
-  /*设置容器向左浮动*/
-  float: left;
-
-  background-image: url(img/gzh.png);
+#from{
+  width: 9.375rem;
+  position: absolute;
+  margin-top: 1.25rem;
+  top: 35%;
+  right: 32%;
 }
-.text {
-  width: 60%;
-  height: 18.75rem;
-  float: left;
-  text-align: center;
-}
-.right {
-  width: 20%;
-  height: 18.75rem;
-  float: right;
-}
-
 /*---------网页的正文文本修饰部分--------*/
 
-#middle {
+#midst{
   width: auto;
   background: #ffffff;
-  height: 62.5rem;
-}
-.middle {
-  width: 600px;
-  height: 500px;
-  font-size: 30px;
+  height: 31.25rem;
   margin: auto;
+  text-align: center;
+}
+#middle {
+  width: 89%;
+  height: 29.375rem;
+  margin: auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.middle-a {
+  width: 12.5rem;
+  height: 25rem;
+  margin: .625rem;
+  padding: .625rem;
+  float: left;
+  display: block;
+  background:#f7f7f7 no-repeat url();
+}
+.middle-b {
+  width: 12.5rem;
+  height: 25rem;
+  margin: .625rem;
+  padding: .625rem;
+  float: left;
+  background:#f7f7f7 no-repeat url();
+}
+.middle-c {
+  width: 12.5rem;
+  height: 25rem;
+  margin: .625rem;
+  padding: .625rem;
+  float: left;
+  background:#f7f7f7 no-repeat url();
+}
+.middle-d {
+  width: 12.5rem;
+  height: 25rem;
+  margin: .625rem;
+  padding: .625rem;
+  float: left;
+  background:#f7f7f7 no-repeat url();
+}
+.middle-e {
+  width: 12.5rem;
+  height: 25rem;
+  margin: .625rem;
+  padding: .625rem;
+  float: left;
+  background:#f7f7f7 no-repeat url();
 }
 
 /*--------网页底部说明文本修饰部分------*/
 
 #base {
   width: auto;
-  height: 5rem;
+  line-height: 2.8125rem;
   color: grey;
-  /*设置外边距中顶部边距为20px*/
-  margin-top: 1.25rem;
   text-align: center;
-}
-.base {
-  width: auto;
-  height: auto;
-  margin: auto;
+  background: #333333;
 }
 .base-a {
   font-size: 1.25rem;
   text-align: center;
-  margin-top: 0.625rem;
   padding: 0rem;
 }
 .base-b {
   position: absolute;
+  top: 88.75rem;
   left: 30.625rem;
 }
 .base-c {
   width: 6%;
   position: absolute;
-  top: 90.625rem;
-  bottom: 0.3125rem;
+  top: 88.375rem;
+  bottom: 0rem;
   left: 1.25rem;
 }
 .bottom {
