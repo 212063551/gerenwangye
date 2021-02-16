@@ -1,5 +1,4 @@
 /*-----系统修饰----------*/
-/*注：以下所有代码1rem=16px*/
 * {
   /*取消系统文本外边距*/
   margin: 0rem;
@@ -15,10 +14,8 @@ html body {
   padding: 0rem;
   background: #ffffff;
 }
-
 /*--------网页顶部文本修饰部分--------*/
-
-#roof {
+.roof {
   /*固定当前位置不动*/
   position: absolute;
   /*距离顶部的像素*/
@@ -47,9 +44,7 @@ html body {
   /*距离左边框的像素*/
   left: 4.8125rem;
 }
-
 /*---------网页导航栏文本修饰部分-----------*/
-
 #navigation {
   /*设置弹性盒模型 为了在窗口小的情况下，不变形*/
   display: flex;
@@ -82,15 +77,15 @@ html body {
   /*改变放大后的字体颜色*/
   color: darkorange;
 }
-
 /*-----------网页的前半部分文本修饰部分----------*/
-
 #nav {
   /*设置自适应宽度*/
   width: auto;
   /*设置高度为300px*/
   height: 18.75rem;
   background: #f7f7f7;
+  color: red;
+  text-align: center;
   }
   .nav-img{
     width: 39.5%;
@@ -103,15 +98,7 @@ html body {
   position: absolute;
   right: 35%;
 }
-#from{
-  width: 9.375rem;
-  position: absolute;
-  margin-top: 1.25rem;
-  top: 35%;
-  right: 32%;
-}
 /*---------网页的正文文本修饰部分--------*/
-
 #midst{
   width: auto;
   background: #ffffff;
@@ -132,8 +119,10 @@ html body {
   margin: .625rem;
   padding: .625rem;
   float: left;
-  display: block;
-  background:#f7f7f7 no-repeat url();
+  background:#4B88EF;
+}
+.middle-a:hover{
+  background:#f7f7f7;
 }
 .middle-b {
   width: 12.5rem;
@@ -141,7 +130,10 @@ html body {
   margin: .625rem;
   padding: .625rem;
   float: left;
-  background:#f7f7f7 no-repeat url();
+  background:#4B88EF;
+}
+.middle-b:hover{
+  background:#f7f7f7;
 }
 .middle-c {
   width: 12.5rem;
@@ -149,7 +141,10 @@ html body {
   margin: .625rem;
   padding: .625rem;
   float: left;
-  background:#f7f7f7 no-repeat url();
+  background:#4B88EF;
+}
+.middle-c:hover{
+  background: #f7f7f7;
 }
 .middle-d {
   width: 12.5rem;
@@ -157,7 +152,10 @@ html body {
   margin: .625rem;
   padding: .625rem;
   float: left;
-  background:#f7f7f7 no-repeat url();
+  background:#4B88EF;
+}
+.middle-d:hover{
+  background: #f7f7f7;
 }
 .middle-e {
   width: 12.5rem;
@@ -165,11 +163,12 @@ html body {
   margin: .625rem;
   padding: .625rem;
   float: left;
-  background:#f7f7f7 no-repeat url();
+  background:#4B88EF;
 }
-
+.middle-e:hover{
+  background: #f7f7f7;
+}
 /*--------网页底部说明文本修饰部分------*/
-
 #base {
   width: auto;
   line-height: 2.8125rem;
