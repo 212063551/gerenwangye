@@ -28,7 +28,7 @@ html body {
   /*指定文字颜色*/
   color: white;
 }
-#top {
+#harder {
   /*自适应宽度*/
   width: auto;
   /*指定高度*/
@@ -83,7 +83,7 @@ html body {
   width: auto;
   /*设置高度为300px*/
   height: 18.75rem;
-  background:no-repeat center/50% url(file:///E:/web%E5%89%8D%E7%AB%AF%E6%96%87%E4%BB%B6/%E6%88%91%E7%9A%84%E7%BD%91%E9%A1%B5/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210217201926.jpg);
+  background:no-repeat center/50% url(../img/img-1.jpg);
   }
   .nav-img{
     width: 39.5%;
@@ -97,16 +97,9 @@ html body {
   right: 35%;
 }
 /*---------网页的正文文本修饰部分--------*/
-#midst{
-  width: auto;
-  background: #ffffff;
-  height: 31.25rem;
-  margin: auto;
-  text-align: center;
-}
-#middle {
+#middle{
   width: 89%;
-  height: 29.375rem;
+  height: 21.25rem;
   margin: auto;
   left: 5%;
   background: #ffffff;
@@ -114,63 +107,108 @@ html body {
 }
 .middle-a {
   width: 12.5rem;
-  height: 25rem;
+  height: 18.75rem;
   margin: .625rem;
   padding: .625rem;
   float: left;
+  border-radius: 30px;
   position: relative;
   background:#4B88EF;
 }
 .middle-a:hover{
-  background: no-repeat center/90% url(file:///E:/web%E5%89%8D%E7%AB%AF%E6%96%87%E4%BB%B6/%E6%88%91%E7%9A%84%E7%BD%91%E9%A1%B5/img/1cc07cca4b380b69c3f97239fda830d.jpg);
+  background:yellow;
 }
 .middle-b {
   width: 12.5rem;
-  height: 25rem;
+  height: 18.75rem;
   margin: .625rem;
   padding: .625rem;
   float: left;
+  border-radius: 30px;
   position: relative;
   background:#4B88EF;
 }
 .middle-b:hover{
-  background: no-repeat center/90% url(file:///E:/web%E5%89%8D%E7%AB%AF%E6%96%87%E4%BB%B6/%E6%88%91%E7%9A%84%E7%BD%91%E9%A1%B5/img/1cc07cca4b380b69c3f97239fda830d.jpg);
+  background: yellow;
 }
 .middle-c {
   width: 12.5rem;
-  height: 25rem;
+  height: 18.75rem;
   margin: .625rem;
   padding: .625rem;
   float: left;
+  border-radius: 30px;
   position: relative;
   background:#4B88EF;
 }
 .middle-c:hover{
-  background: no-repeat center/90% url(file:///E:/web%E5%89%8D%E7%AB%AF%E6%96%87%E4%BB%B6/%E6%88%91%E7%9A%84%E7%BD%91%E9%A1%B5/img/1cc07cca4b380b69c3f97239fda830d.jpg);
+  background: no-repeat center /80% url(../img/img-2.jpg);
 }
 .middle-d {
   width: 12.5rem;
-  height: 25rem;
+  height: 18.75rem;
   margin: .625rem;
   padding: .625rem;
   float: left;
+  border-radius: 30px;
   position: relative;
   text-align: center;
   background:#4B88EF;
 }
 .middle-d:hover{
-  background: no-repeat center/90% url(file:///E:/web%E5%89%8D%E7%AB%AF%E6%96%87%E4%BB%B6/%E6%88%91%E7%9A%84%E7%BD%91%E9%A1%B5/img/1cc07cca4b380b69c3f97239fda830d.jpg);
+  background:yellow;
+}
+.middle-e {
+  width: 12.5rem;
+  height: 18.75rem;
+  margin: .625rem;
+  padding: .625rem;
+  float: left;
+  border-radius: 30px;
+  position: relative;
+  text-align: center;
+  background: #4B88EF;
+}
+.middle-e:hover{
+  background:yellow;
+}
+.gzh{
+  position: absolute;
+  left: 25%;
+  bottom: 15%;
+}
+.wxicon{
+  width: 3%;
+  position: fixed;
+  bottom: 150px;
+  right: 20px;
+}
+.wxicon:hover{
+  border-radius: 1.25rem;
+  background: black;
+}
+.top{
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 6.25rem;
+  right: 20px;
+}
+.top:hover{
+  /*设置圆角*/
+  border-radius: 60%;
+  background: black;
 }
 .gitee{
   position: absolute;
-  right: 20px;
-  bottom:50px;
+  right: 1.25rem;
+  bottom: 3.125rem;
   text-decoration: none;
 }
 .github{
   position: absolute;
-  left: 20px;
-  bottom:50px;
+  left: 1.25rem;
+  bottom: 3.125rem;
   text-decoration: none;
 }
 .middle-d input{
@@ -180,42 +218,78 @@ html body {
   border: none;
   /*取消按钮外边框*/
   outline: none;
-  height: 40px;
-  width: 80px;
-  background: greenyellow;
-  color: gray;
+  height: 2.5rem;
+  width: 5rem;
+  background: blanchedalmond;
+  color: black;
   /*设置圆角*/
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 .middle-d input:hover{
-  background: yellow;
+  background: #4B88EF;
   color: black;
+  text-decoration: underline;
 }
 .middle-d p{
-  width: 150px;
-  height: 110px;
+  width: 9.375rem;
+  height: 6.875rem;
   position: absolute;
-  top: 60px;
+  top: 3.75rem;
   left: 18%;
+}
+/*-----------miast部分修饰-------------*/
+section{
+  width: 800px;
+  height: 300px;
+  margin: 10px auto;
+}
+section article{
+  width: 200px;
+  height: 300px;
+  float: left;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.midst-a{
+  background:#373334;
+  color: white;
+}
+.midst-b{
+  background:#C8D7D2;
+}
+.midst-c{
+  background:#F3F2F0;
+}
+.midst-d{
+  background:#D74339;
+}
+section:hover article{
+  width: 50px;
 
 }
-.middle-e {
-  width: 12.5rem;
-  height: 25rem;
-  margin: .625rem;
-  padding: .625rem;
-  float: left;
-  position: relative;
+section .midst-a:hover{
+  width: 650px;
+  overflow: auto;
+  margin: auto;
+}
+section .midst-b:hover{
+  width: 650px;
+  overflow: auto;
+}
+section .midst-c:hover{
+  width: 650px;
+  overflow: auto;
+}
+section .midst-d:hover{
+  width: 650px;
+  overflow: auto;
+}
+h4{
   text-align: center;
-    background: #4B88EF;
 }
-.middle-e:hover{
-  background: no-repeat center/90% url(file:///E:/web%E5%89%8D%E7%AB%AF%E6%96%87%E4%BB%B6/%E6%88%91%E7%9A%84%E7%BD%91%E9%A1%B5/img/1cc07cca4b380b69c3f97239fda830d.jpg);
-}
-.gzh{
-  position: absolute;
-  bottom: 20px;
-  left: 50px;
+#qwer{
+  width: auto;
+  height: 31.25rem;
 }
 /*--------网页底部说明文本修饰部分------*/
  footer {
@@ -231,14 +305,14 @@ html body {
   text-align: center;
   padding: 0rem;
 }
-.base-b {
-  
-  top: 88.75rem;
-  left: 30.625rem;
-}
-.bottom {
-  text-align: center;
-  /*去掉文本修饰*/
+#bottom a{
+  width:500px;
+  color: gray;
+  margin:auto;
+  padding:20px 0;
   text-decoration: none;
-  color: grey;
+}
+#bottom a:hover{
+  text-decoration: underline;
+  color: #4B88EF;
 }
